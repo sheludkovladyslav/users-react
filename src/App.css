@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+.user {
+  padding: 10px 30px;
+  box-shadow: 0px 2px 4px 2px gray;
+  font-size: 24px;
+  text-align: left;
+}
+
+.user__name {
+  font-size: 1.5em;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: stretch;
+}
+
+.users__item {
+  flex-basis: calc((100% - 100px) / 3);
+  display: flex;
+}
